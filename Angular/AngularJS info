@@ -1,0 +1,45 @@
+Checking Node.js
+	node -v
+	v12.18.0
+Checking Node package manager (npm)
+	npm -v
+	6.14.4
+**********************************************************
+Install angular
+	npm install @angular/cli -g
+Checking angularr installation
+	ng -v
+	Angular CLI: 10.0.1
+	Node: 12.18.0
+	OS: win32 x64
+
+	Angular:
+	...
+	Ivy Workspace:
+
+	Package                      Version
+	------------------------------------------------------
+	@angular-devkit/architect    0.1000.1
+	@angular-devkit/core         10.0.1
+	@angular-devkit/schematics   10.0.1
+	@schematics/angular          10.0.1
+	@schematics/update           0.1000.1
+	rxjs                         6.5.5
+**********************************************************
+Creating new angular project:
+	ng new projectname stylesheetName routing
+	Ex: ng new sampleNG --style=scss --routing
+After creation navigate to project directory
+	cd sampleNG
+**********************************************************
+To deploy on localhost:
+	O:\Work\Angular\sampleNG>ng serve
+	** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+	: Compiled successfully.
+**********************************************************
+Creating Home page for web applications from end:
+	O:\Work\Angular\sampleNG>ng generate component home
+	UPDATE src/app/app.module.ts (467 bytes)
+Can use shortcuts
+	O:\Work\Angular\sampleNG>ng g c about
+**********************************************************
